@@ -15,6 +15,7 @@ public static class ApplicationServiceExtensions
             opt.UseNpgsql(config.GetConnectionString("MainConnection"));
 
         });
+        services.AddCors
 
 
         return services; 

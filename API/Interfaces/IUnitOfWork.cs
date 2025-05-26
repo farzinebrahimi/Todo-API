@@ -5,6 +5,6 @@ namespace API.Interfaces;
 
 public interface IUnitOfWork : IDisposable
 {
-    IRepository<TodoItem> TodoRepository { get; }
+    ITodoRepository TodoRepository { get; }
     Task<int> SaveChangesAsync();
 }
